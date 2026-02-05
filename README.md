@@ -111,7 +111,7 @@ The SQL layer answers common business questions such as:
 - Average order value 
 
 
-> These queries are stored in:
+ These queries are stored in:
 
 >> #### sql/analytics_queries.sql
 
