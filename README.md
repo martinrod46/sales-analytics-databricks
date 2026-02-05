@@ -1,5 +1,6 @@
-📊 Sales Analytics Pipeline (Databricks + PySpark + SQL)
-🚀 Project Overview
+# 📊 Sales Analytics Pipeline (Databricks + PySpark + SQL)
+
+#### 🚀 Project Overview
 
 This project is an end-to-end sales analytics pipeline designed to simulate a real-world data analyst / analytics engineer workflow using Databricks, PySpark, and SQL.
 
