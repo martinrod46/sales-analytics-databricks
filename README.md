@@ -15,7 +15,8 @@ The goal of this project is to demonstrate:
 -Git-based workflow \
 -Databricks + Unity Catalog best practices
 
-
+/
+/
 
 ### 🧱 Architecture
 
@@ -31,7 +32,8 @@ Analytics Tables (dim & fact) \
    ↓ \
 Business Analytics (SQL queries) 
 
-
+/
+/
 
 ### 🛠️ Tech Stack
 
@@ -41,7 +43,8 @@ Business Analytics (SQL queries)
 -Unity Catalog -> Data governance and storage \
 -GitHub -> Version control
 
-
+/
+/
 
 ### 📁 Repository Structure
 
@@ -54,7 +57,8 @@ sales_analytics_pipeline/ \
 │ \
 └── README.md 
 
-
+/
+/
 
 ### 📥 Data Ingestion
 
@@ -69,7 +73,8 @@ Files include:
 
 **Data is loaded into staging tables using SQL.**
 
-
+/
+/
 
 ### 🔄 ETL Process (PySpark)
 
@@ -88,7 +93,8 @@ joins orders, order_items, and products
 
 calculates revenue per line item
 
-
+/
+/
 
 ### 📊 Analytics & Business Queries
 
@@ -104,6 +110,8 @@ These queries are stored in:
 
 **sql/analytics_queries.sql**
 
+/
+/
 
 ### ▶️ How to Run
 
@@ -113,6 +121,8 @@ These queries are stored in:
  **pyspark/etl_sales_analytics.py** \
 -Query analytics tables using SQL.
 
+/
+/
 
 ### 📌 Notes
 
@@ -120,6 +130,8 @@ These queries are stored in:
 -All processing is done inside Databricks. \
 -Project follows industry-standard analytics workflows.
 
+/
+/
 
 ### 👤 Author
 
