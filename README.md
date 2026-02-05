@@ -123,7 +123,7 @@ These queries are stored in:
 - Upload raw CSV files to a Unity Catalog volume. 
 - Create staging tables using SQL. 
 - Run the PySpark ETL script:
- ###### pyspark/etl_sales_analytics.py
+ ##### pyspark/etl_sales_analytics.py
 - Query analytics tables using SQL.
 
 
