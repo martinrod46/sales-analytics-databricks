@@ -145,3 +145,12 @@ The SQL layer answers common business questions such as:
 ### 👤 Author
 
 Built as a hands-on learning project to practice real-world data analytics and engineering skills.
+
+<br>
+<br>
+
+### 💼 Job Interview Insights
+
+Built an interview-proof guide that can help in case you need to talk through this project confidently.
+
+>> ### interview_insights.md document 
