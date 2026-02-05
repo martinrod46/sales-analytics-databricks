@@ -1,6 +1,6 @@
 # 📊 Sales Analytics Pipeline (Databricks + PySpark + SQL)
 
-#### 🚀 Project Overview
+### 🚀 Project Overview
 
 This project is an end-to-end sales analytics pipeline designed to simulate a real-world data analyst / analytics engineer workflow using Databricks, PySpark, and SQL.
 
@@ -8,20 +8,16 @@ The pipeline ingests raw CSV sales data, stages it using SQL, transforms it with
 
 The goal of this project is to demonstrate:
 
-data modeling
-
-ETL / ELT concepts
-
-SQL analytics
-
-PySpark transformations
-
-Git-based workflow
-
-Databricks + Unity Catalog best practices
+-Data modeling
+-ETL / ELT concepts
+-SQL analytics
+-PySpark transformations
+-Git-based workflow
+-Databricks + Unity Catalog best practices
 
 
-🧱 Architecture
+### 🧱 Architecture
+
 Raw CSV Files
    ↓
 Unity Catalog Volume (raw_sales_data)
@@ -35,20 +31,17 @@ Analytics Tables (dim & fact)
 Business Analytics (SQL queries)
 
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
-Databricks – execution environment
-
-Apache Spark (PySpark) – ETL transformations
-
-SQL – staging, modeling, and analytics
-
-Unity Catalog – data governance and storage
-
-GitHub – version control
+-Databricks / Execution environment
+-Apache Spark (PySpark) / ETL transformations
+-SQL / Staging, modeling and analytics
+-Unity Catalog / Data governance and storage
+-GitHub / Version control
 
 
-📁 Repository Structure
+### 📁 Repository Structure
+
 sales_analytics_pipeline/
 ├── pyspark/
 │   └── etl_sales_analytics.py
@@ -59,36 +52,32 @@ sales_analytics_pipeline/
 └── README.md
 
 
-📥 Data Ingestion
+### 📥 Data Ingestion
 
-Raw data is stored as CSV files in a Unity Catalog Volume
+Raw data is stored as CSV files in a Unity Catalog Volume.
 
 Files include:
 
-customers
+-Customers
+-Products
+-Orders
+-Order_items
 
-products
-
-orders
-
-order_items
-
-Data is loaded into staging tables using SQL
+Data is loaded into staging tables using SQL.
 
 
-🔄 ETL Process (PySpark)
+### 🔄 ETL Process (PySpark)
 
 The PySpark ETL script performs the following:
 
-Dimensions
+Dimensions:
 
-dim_customers
+-dim_customers
+-dim_products
 
-dim_products
+Fact Table:
 
-Fact Table
-
-fact_sales
+-fact_sales
 
 joins orders, order_items, and products
 
@@ -96,45 +85,37 @@ calculates revenue per line item
 
 
 
-📊 Analytics & Business Queries
+### 📊 Analytics & Business Queries
 
 The SQL layer answers common business questions such as:
 
-revenue by day
+-Revenue by day
+-Revenue by product category
+-Top customers by spend
+-Average order value
 
-revenue by product category
-
-top customers by spend
-
-average order value
 
 These queries are stored in:
 
 sql/analytics_queries.sql
 
 
-▶️ How to Run
+### ▶️ How to Run
 
-Upload raw CSV files to a Unity Catalog volume
-
-Create staging tables using SQL
-
-Run the PySpark ETL script:
-
-pyspark/etl_sales_analytics.py
-
-Query analytics tables using SQL
+-Upload raw CSV files to a Unity Catalog volume.
+-Create staging tables using SQL.
+-Run the PySpark ETL script:
+    pyspark/etl_sales_analytics.py
+-Query analytics tables using SQL.
 
 
-📌 Notes
+### 📌 Notes
 
-Raw data is not stored in GitHub
-
-All processing is done inside Databricks
-
-Project follows industry-standard analytics workflows.
+-Raw data is not stored in GitHub.
+-All processing is done inside Databricks.
+-Project follows industry-standard analytics workflows.
 
 
-👤 Author
+### 👤 Author
 
 Built as a hands-on learning project to practice real-world data analytics and engineering skills.
