@@ -126,7 +126,7 @@ The SQL layer answers common business questions such as:
 
  Run the PySpark ETL script:
 
- >> #### pyspark/etl_sales_analytics.py
+ >> ### pyspark/etl_sales_analytics.py
 
 
 
