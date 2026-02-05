@@ -34,8 +34,8 @@ Analytics Tables (dim & fact) \
    ↓ \
 Business Analytics (SQL queries) 
 
-/
-/
+<br>
+<br>
 
 ### 🛠️ Tech Stack
 
@@ -45,8 +45,8 @@ Business Analytics (SQL queries)
 -Unity Catalog -> Data governance and storage \
 -GitHub -> Version control
 
-/
-/
+<br>
+<br>
 
 ### 📁 Repository Structure
 
@@ -59,8 +59,8 @@ sales_analytics_pipeline/ \
 │ \
 └── README.md 
 
-/
-/
+<br>
+<br>
 
 ### 📥 Data Ingestion
 
@@ -75,8 +75,8 @@ Files include:
 
 **Data is loaded into staging tables using SQL.**
 
-/
-/
+<br>
+<br>
 
 ### 🔄 ETL Process (PySpark)
 
@@ -95,8 +95,8 @@ joins orders, order_items, and products
 
 calculates revenue per line item
 
-/
-/
+<br>
+<br>
 
 ### 📊 Analytics & Business Queries
 
@@ -112,8 +112,8 @@ These queries are stored in:
 
 **sql/analytics_queries.sql**
 
-/
-/
+<br>
+<br>
 
 ### ▶️ How to Run
 
@@ -123,8 +123,9 @@ These queries are stored in:
  **pyspark/etl_sales_analytics.py** \
 -Query analytics tables using SQL.
 
-/
-/
+
+<br>
+<br>
 
 ### 📌 Notes
 
@@ -132,8 +133,8 @@ These queries are stored in:
 -All processing is done inside Databricks. \
 -Project follows industry-standard analytics workflows.
 
-/
-/
+<br>
+<br>
 
 ### 👤 Author
 
