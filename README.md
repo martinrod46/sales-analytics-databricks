@@ -113,7 +113,7 @@ The SQL layer answers common business questions such as:
 
 These queries are stored in:
 
-###### sql/analytics_queries.sql
+#### sql/analytics_queries.sql
 
 <br>
 <br>
