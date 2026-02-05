@@ -8,11 +8,11 @@ The pipeline ingests raw CSV sales data, stages it using SQL, transforms it with
 
 The goal of this project is to demonstrate:
 
--Data modeling
--ETL / ELT concepts
--SQL analytics
--PySpark transformations
--Git-based workflow
+-Data modeling \
+-ETL / ELT concepts \
+-SQL analytics \
+-PySpark transformations \
+-Git-based workflow \
 -Databricks + Unity Catalog best practices
 
 
