@@ -111,9 +111,9 @@ The SQL layer answers common business questions such as:
 - Average order value 
 
 
-These queries are stored in:
+> These queries are stored in:
 
-#### sql/analytics_queries.sql
+>> #### sql/analytics_queries.sql
 
 <br>
 <br>
@@ -123,7 +123,9 @@ These queries are stored in:
 - Upload raw CSV files to a Unity Catalog volume. 
 - Create staging tables using SQL. 
 - Query analytics tables using SQL.
-- Run the PySpark ETL script:
+
+ Run the PySpark ETL script:
+
  #### pyspark/etl_sales_analytics.py
 
 
