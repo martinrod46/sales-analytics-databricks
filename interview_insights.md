@@ -1,6 +1,6 @@
-> "Can you walk me through an end-to-end project you've worked on?"
+> **"Can you walk me through an end-to-end project you've worked on?"**
 >
->> One project I worked on was an end-to-end sales analytics pipeline designed to simulate a real-world data analyst workflow.
+One project I worked on was an end-to-end sales analytics pipeline designed to simulate a real-world data analyst workflow.
 
 The goal was to take raw sales data and turn it into analytics-ready tables that could be easily used for reporting and dashboards.
 
