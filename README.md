@@ -16,6 +16,7 @@ The goal of this project is to demonstrate:
 -Databricks + Unity Catalog best practices
 
 
+
 ### 🧱 Architecture
 
 Raw CSV Files \
@@ -31,13 +32,15 @@ Analytics Tables (dim & fact) \
 Business Analytics (SQL queries) 
 
 
+
 ### 🛠️ Tech Stack
 
--Databricks / Execution environment \
--Apache Spark (PySpark) / ETL transformations \
--SQL / Staging, modeling and analytics \
--Unity Catalog / Data governance and storage \
--GitHub / Version control
+-Databricks -> Execution environment \
+-Apache Spark (PySpark) -> ETL transformations \
+-SQL -> Staging, modeling and analytics \
+-Unity Catalog -> Data governance and storage \
+-GitHub -> Version control
+
 
 
 ### 📁 Repository Structure
@@ -49,7 +52,8 @@ sales_analytics_pipeline/ \
 ├── sql/ \
 │   └── analytics_queries.sql \
 │ \
-└── README.md \
+└── README.md 
+
 
 
 ### 📥 Data Ingestion
@@ -61,9 +65,10 @@ Files include:
 -Customers \
 -Products \
 -Orders \
--Order_items \
+-Order_items 
 
-Data is loaded into staging tables using SQL.
+**Data is loaded into staging tables using SQL.**
+
 
 
 ### 🔄 ETL Process (PySpark)
@@ -73,7 +78,7 @@ The PySpark ETL script performs the following:
 Dimensions:
 
 -dim_customers \
--dim_products \
+-dim_products 
 
 Fact Table:
 
@@ -92,20 +97,20 @@ The SQL layer answers common business questions such as:
 -Revenue by day \
 -Revenue by product category \
 -Top customers by spend \
--Average order value \
+-Average order value 
 
 
 These queries are stored in:
 
-sql/analytics_queries.sql
+**sql/analytics_queries.sql**
 
 
 ### ▶️ How to Run
 
 -Upload raw CSV files to a Unity Catalog volume. \
 -Create staging tables using SQL. \
--Run the PySpark ETL script: \
-    pyspark/etl_sales_analytics.py \
+-Run the PySpark ETL script:
+ **pyspark/etl_sales_analytics.py** \
 -Query analytics tables using SQL.
 
 
