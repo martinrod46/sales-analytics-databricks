@@ -8,11 +8,11 @@ The pipeline ingests raw CSV sales data, stages it using SQL, transforms it with
 
 The goal of this project is to demonstrate:
 
-- Data modeling \
-- ETL / ELT concepts \
-- SQL analytics \
-- PySpark transformations \
-- Git-based workflow \
+- Data modeling 
+- ETL / ELT concepts 
+- SQL analytics 
+- PySpark transformations 
+- Git-based workflow 
 - Databricks + Unity Catalog best practices
 
 
@@ -39,11 +39,11 @@ Business Analytics (SQL queries)
 
 ### 🛠️ Tech Stack
 
--Databricks -> Execution environment \
--Apache Spark (PySpark) -> ETL transformations \
--SQL -> Staging, modeling and analytics \
--Unity Catalog -> Data governance and storage \
--GitHub -> Version control
+- Databricks -> Execution environment 
+- Apache Spark (PySpark) -> ETL transformations 
+- SQL -> Staging, modeling and analytics 
+- Unity Catalog -> Data governance and storage 
+- GitHub -> Version control
 
 <br>
 <br>
@@ -68,10 +68,10 @@ Raw data is stored as CSV files in a Unity Catalog Volume.
 
 Files include: 
 
--Customers \
--Products \
--Orders \
--Order_items 
+- Customers 
+- Products 
+- Orders 
+- Order_items 
 
 **Data is loaded into staging tables using SQL.**
 
@@ -84,14 +84,17 @@ The PySpark ETL script performs the following:
 
 Dimensions:
 
--dim_customers \
--dim_products 
+- dim_customers 
+- dim_products 
 
 Fact Table:
 
--fact_sales
+- fact_sales
 
-joins orders, order_items, and products
+joins: 
+- orders 
+- order_items
+- products
 
 calculates revenue per line item
 
@@ -102,10 +105,10 @@ calculates revenue per line item
 
 The SQL layer answers common business questions such as:
 
--Revenue by day \
--Revenue by product category \
--Top customers by spend \
--Average order value 
+- Revenue by day 
+- Revenue by product category 
+- Top customers by spend 
+- Average order value 
 
 
 These queries are stored in:
@@ -117,11 +120,11 @@ These queries are stored in:
 
 ### ▶️ How to Run
 
--Upload raw CSV files to a Unity Catalog volume. \
--Create staging tables using SQL. \
--Run the PySpark ETL script:
- **pyspark/etl_sales_analytics.py** \
--Query analytics tables using SQL.
+- Upload raw CSV files to a Unity Catalog volume. 
+- Create staging tables using SQL. 
+- Run the PySpark ETL script:
+ **pyspark/etl_sales_analytics.py** 
+- Query analytics tables using SQL.
 
 
 <br>
@@ -129,9 +132,9 @@ These queries are stored in:
 
 ### 📌 Notes
 
--Raw data is not stored in GitHub. \
--All processing is done inside Databricks. \
--Project follows industry-standard analytics workflows.
+- Raw data is not stored in GitHub. 
+- All processing is done inside Databricks. 
+- Project follows industry-standard analytics workflows.
 
 <br>
 <br>
