@@ -153,4 +153,4 @@ Built as a hands-on learning project to practice real-world data analytics and e
 
 Built an interview-proof guide that can help in case you need to talk through this project confidently.
 
->> ### interview_insights.md document 
+>> ### interview_insights.md 
