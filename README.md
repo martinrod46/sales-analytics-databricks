@@ -113,7 +113,7 @@ The SQL layer answers common business questions such as:
 
 These queries are stored in:
 
-**sql/analytics_queries.sql**
+###### sql/analytics_queries.sql
 
 <br>
 <br>
@@ -123,7 +123,7 @@ These queries are stored in:
 - Upload raw CSV files to a Unity Catalog volume. 
 - Create staging tables using SQL. 
 - Run the PySpark ETL script:
- **pyspark/etl_sales_analytics.py** 
+ ###### pyspark/etl_sales_analytics.py
 - Query analytics tables using SQL.
 
 
